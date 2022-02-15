@@ -1,6 +1,8 @@
 .news-container{
     display: flex;
     justify-content: space-between;
+    max-width:1300px ;
+    margin: auto;
 }
 .news-container div{
     display: flex;
@@ -8,10 +10,12 @@
     align-items: center;
     width: 100%;
     border-style: solid;
-    background-color: darkgray;
     
+    margin: 30px;
 
-
-
+}
+.news-container div img{
+    max-width: 800px;
+    max-height: 600px;
 }
 

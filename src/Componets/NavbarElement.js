@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
  width:100%;
- max-width:1300px;
+ max-width:1300px; 
  height:100%;
  display:felx;
  flex-wrap:wrap;
