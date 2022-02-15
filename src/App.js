@@ -1,25 +1,27 @@
-import './App.css'
+import './CSS/App.css'
 import Navbar from "./Componets/Navbar";
-import Top from "./Componets/Top"
-import Cards from "./Componets/Cards"
+import Home from "./Pages/Home"
+import AboutUs from "./Pages/AboutUs"
+import OurWorks from "./Pages/OurWorks"
+import ContactUs from "./Pages/ContactUs"
 import Footer from "./Componets/Footer"
-import News from './Componets/News';
-import { BrowserRouter } from 'react-router-dom'
-import { Routes, Route,  } from "react-router-dom";
-
-
-
+import {Routes, Route, BrowserRouter } from 'react-router-dom'
 
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Navbar />
-      <Top />
-      <Cards />
-      <News/>
-      <Footer/>
-     
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/aboutUs" element={<AboutUs/>} />
+          <Route path="/ourWorks" element={<OurWorks/>}/>
+          <Route path="/contactUs" element={<ContactUs/>}/>
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+
 
 
 
