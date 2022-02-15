@@ -1,14 +1,18 @@
+import "../CSS/AboutUs.css"
+import A1 from '../Img/A1.jpeg'
+import A2 from '../Img/A2.jpeg'
+import A3 from '../Img/A3.jpeg'
 
 
 function AboutUs() {
-    return(
+    return (
         <div className='container1' >
             <div className='container2'>
 
 
                 <div>
-                    <img src={G8}  />
 
+                    <img src={A1} />
                     <p>
                         What is Lorem Ipsum?
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -31,14 +35,14 @@ function AboutUs() {
                         with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
                         PageMaker including versions of Lorem Ipsum
                     </p>
+                    <img src={A2} />
 
-                    <img src={G9}  />
 
                 </div>
 
                 <div >
 
-                    <img src={G7} />
+                    <img src={A3} />
                     <p>
                         What is Lorem Ipsum?
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -53,7 +57,7 @@ function AboutUs() {
 
         </div>
     )
-    
-    
+
+
 }
 export default AboutUs

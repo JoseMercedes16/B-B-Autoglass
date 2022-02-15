@@ -40,7 +40,7 @@ const Navbar = () => {
                             <MenuItenLink>
                                 <div>
                                     <FaUserTie />
-                                    <a href="/aboutMe" style={{ color: "#fff" }}>
+                                    <a href="/aboutUs" style={{ color: "#fff" }}>
                                         About US
                                     </a>
                                 </div>
@@ -50,7 +50,7 @@ const Navbar = () => {
                             <MenuItenLink>
                                 <div>
                                     <FaBriefcase />
-                                    <a href='/portfolio' style={{ color: "#fff" }}>
+                                    <a href='/ourWorks' style={{ color: "#fff" }}>
                                         Our Works
                                     </a>
                                 </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
                             <MenuItenLink>
                                 <div>
                                     <FaGlasses />
-                                    <a href='/contactMe' style={{ color: "#fff" }}>
+                                    <a href='/contactUs' style={{ color: "#fff" }}>
                                         Contact US
                                     </a>
                                 </div>
