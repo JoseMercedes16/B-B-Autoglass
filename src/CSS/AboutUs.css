@@ -1,12 +1,13 @@
 .container1{
     display: flex;
     max-width: 1300px;
+    margin: auto;
     
 }
 .container2 div{
     justify-content: space-between;
     display: flex;
-    margin: auto;
+    
 }
 .container2 div img{
     max-width: 500px;
@@ -21,3 +22,11 @@
      display: flex;
      margin: 10px;
  }
+ @media (max-width:900px) {
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+}
