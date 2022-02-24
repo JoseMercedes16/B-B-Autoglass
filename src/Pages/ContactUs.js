@@ -21,7 +21,7 @@ function ContactUs() {
   const enviarDatos = (event) => {
     event.preventDefault();
 
-    emailjs.send('service_03i66b5', 'template_6grr28v', datos
+    emailjs.send('service_fmxrggd', 'template_6grr28v', datos
       , 'user_FT197j6aBI4C2PueUGBJI')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
